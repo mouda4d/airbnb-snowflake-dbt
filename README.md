@@ -6,7 +6,7 @@
 
 
 
-## Architecture \& Tools
+## Architecture & Tools
 
 
 

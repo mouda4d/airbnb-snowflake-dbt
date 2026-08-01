@@ -1,14 +1,14 @@
-\# Airbnb Snowflake dbt Pipeline
+# Airbnb Snowflake dbt Pipeline
 
 
 
-\## Overview
+## Overview
 
 
 
-\## Architecture \& Tools
+## Architecture \& Tools
 
 
 
-\## Getting Started
+## Getting Started
 

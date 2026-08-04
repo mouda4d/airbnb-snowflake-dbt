@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('airbnb_source', 'hosts') }}

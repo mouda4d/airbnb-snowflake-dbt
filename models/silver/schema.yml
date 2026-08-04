@@ -1,0 +1,5 @@
+version: 2
+models:
+  - name: silver_hosts
+    description: "Cleaned host's data - null values replaced with 'Anonymous' for host_name"
+

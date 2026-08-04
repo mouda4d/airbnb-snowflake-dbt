@@ -1,12 +1,6 @@
--- M3 Lesson 6: file format + RAW target tables
--- Run as TRANSFORMER. TRANSFORMER owns the RAW schema (it created it, see
--- 02_schemas.sql), so no extra grants are needed to create these objects.
 
 USE ROLE TRANSFORMER;
 
--- SKIP_HEADER = 1 tells Snowflake the first line of each CSV is column
--- names, not data, and to skip it. FIELD_OPTIONALLY_ENCLOSED_BY handles any
--- text field that happens to contain a comma (wrapped in quotes in the CSV).
 CREATE FILE FORMAT IF NOT EXISTS AIRBNB.RAW.CSV_FORMAT
   TYPE = CSV
   SKIP_HEADER = 1

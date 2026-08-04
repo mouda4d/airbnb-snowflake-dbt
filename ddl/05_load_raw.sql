@@ -1,5 +1,3 @@
--- M3 Lesson 6: load the staged CSVs into the RAW tables
--- Run as TRANSFORMER
 
 USE ROLE TRANSFORMER;
 

@@ -1,5 +1,3 @@
--- M0: base database + warehouse cost hygiene
--- Run as ACCOUNTADMIN (resource monitor creation specifically requires it)
 
 CREATE DATABASE IF NOT EXISTS AIRBNB;
 

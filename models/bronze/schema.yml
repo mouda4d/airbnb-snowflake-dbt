@@ -1,0 +1,8 @@
+version: 2
+models:
+  - name: bronze_hosts
+    description: "original hosts data - only the most recent record for each host_id is kept"
+  - name: bronze_listings
+    description: "original listings data - only the most recent record for each listing_id is kept"
+  - name: bronze_bookings
+    description: "original bookings data - only the most recent record for each booking_id is kept"

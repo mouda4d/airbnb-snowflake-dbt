@@ -1,8 +1,8 @@
 version: 2
 models:
   - name: bronze_hosts
-    description: "original hosts data - only the most recent record for each host_id is kept"
+    description: "Raw hosts data, passed through unchanged from the RAW source. Incrementally loaded; existing host_id rows are updated in place rather than duplicated."
   - name: bronze_listings
-    description: "original listings data - only the most recent record for each listing_id is kept"
+    description: "Raw listings data, passed through unchanged from the RAW source. Incrementally loaded; existing listing_id rows are updated in place rather than duplicated."
   - name: bronze_bookings
-    description: "original bookings data - only the most recent record for each booking_id is kept"
+    description: "Raw bookings data, passed through unchanged from the RAW source. Incrementally loaded; existing booking_id rows are updated in place rather than duplicated."
